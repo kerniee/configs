@@ -1,0 +1,10 @@
+$include /etc/inputrc
+
+set completion-ignore-case On
+
+# search through history of commands
+"\e[5~": history-search-backward
+"\e[6~": history-search-forward
+
+# Ctrl-Backspace
+"\C-H": shell-backward-kill-word
