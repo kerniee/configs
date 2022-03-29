@@ -1,7 +1,11 @@
+# 1.
+# Create symbolic link using `ln -s .../configs/.bashrc ~/.bashrc_kernie`
+# 2.
 # Include this in ~/.bashrc
 # if [ -f ~/.bashrc_kernie ]; then
 #     . ~/.bashrc_kernie
 # fi
+
 
 PS1="\[\e]0;\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\h\[\033[00m\]: \[\033[01;34m\]\w\[\033[00m\] $ "
 

@@ -1,3 +1,6 @@
+# 1.
+# Add symbolic link using `ln -s .../configs/.inputrc ~/.inputrc`
+
 $include /etc/inputrc
 
 set completion-ignore-case On
